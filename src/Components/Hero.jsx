@@ -27,13 +27,14 @@ function Hero() {
 
         <div className="hero-buttons">
           <a
-             href={`${import.meta.env.BASE_URL}Shaik_Mastan_Shareef_Professional_ATS_Resume.pdf`}
-             download
+            href="https://mastanshareefshaik5-ms.github.io/PortFolio/Shaik_Mastan_Shareef_Professional_ATS_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
 >
-             <button>
-              <FaDownload /> Download Resume
-             </button>
-          </a>
+              <button>
+                <FaDownload /> Download Resume
+              </button>
+           </a>
 
           <a href="#contact">
             <button>Contact Me</button>
