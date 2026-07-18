@@ -27,12 +27,12 @@ function Hero() {
 
         <div className="hero-buttons">
           <a
-            href={`${import.meta.env.BASE_URL}Shaik_Mastan_Shareef_ATS_Resume.pdf`}
-            download="Shaik_Mastan_Shareef_ATS_Resume.pdf"
-          >
-            <button>
+             href={`${import.meta.env.BASE_URL}Shaik_Mastan_Shareef_Professional_ATS_Resume.pdf`}
+             download
+>
+             <button>
               <FaDownload /> Download Resume
-            </button>
+             </button>
           </a>
 
           <a href="#contact">
