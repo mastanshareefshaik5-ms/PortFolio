@@ -26,9 +26,11 @@ function Hero() {
         </p>
 
         <div className="hero-buttons">
-          <button onClick={() => alert("Resume will be uploaded soon!")}>
-            <FaDownload /> Resume
-          </button>
+          <a href="/PortFolio/resume.pdf" download>
+            <button>
+               <FaDownload /> Download Resume
+            </button>
+          </a>
 
           <a href="#contact">
             <button>Contact Me</button>
