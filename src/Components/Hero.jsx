@@ -26,9 +26,12 @@ function Hero() {
         </p>
 
         <div className="hero-buttons">
-          <a href="/PortFolio/resume.pdf" download>
+          <a
+            href={`${import.meta.env.BASE_URL}Shaik_Mastan_Shareef_ATS_Resume.pdf`}
+            download="Shaik_Mastan_Shareef_ATS_Resume.pdf"
+          >
             <button>
-               <FaDownload /> Download Resume
+              <FaDownload /> Download Resume
             </button>
           </a>
 
@@ -42,6 +45,7 @@ function Hero() {
             href="https://github.com/mastanshareefshaik5-ms"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="GitHub"
           >
             <FaGithub />
           </a>
@@ -50,6 +54,7 @@ function Hero() {
             href="https://www.linkedin.com/in/mastan-shareef-shaik-077010423/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="LinkedIn"
           >
             <FaLinkedin />
           </a>
